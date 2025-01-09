@@ -54,3 +54,25 @@
     scrollbar-width: thin;
     scrollbar-color: var(--border-color) transparent;
   }
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: var(--border-radius);
+  }
+  
+  /* Base body styles */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bg-primary);
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+  }
