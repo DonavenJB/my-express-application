@@ -76,3 +76,21 @@
     color: var(--text-primary);
     font-family: var(--font-mono);
   }
+  
+  /* Body can scroll freely on mobile */
+  body[data-mode="static"] {
+    overflow-y: auto;
+    height: auto;
+    position: static;
+  }
+  
+  /* Top-level containers */
+  .terminal-container,
+  .static-content {
+    width: 100%;
+    min-height: 100vh; /* Ensures elements stretch to fill the screen height */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all var(--transition-normal);
+  }
