@@ -130,3 +130,23 @@
     max-width: 100%;
     overflow: hidden;
   }
+  
+  /* Sidebar */
+  .terminal-sidebar {
+    background: none !important; /* Reset any forced black from above */
+    border-right: 1px solid var(--border-color);
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+  /* Main region */
+  .terminal-main {
+    background: var(--bg-primary);
+    margin: 1rem;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
