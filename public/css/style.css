@@ -178,3 +178,16 @@
     border-radius: 50%;
     opacity: 0.7;
   }
+  .terminal-header-button.red {
+    background: #ff5f57;
+  }
+  .terminal-header-button.yellow {
+    background: #febc2e;
+  }
+  .terminal-header-button.green {
+    background: #28c840;
+  }
+  .terminal-title {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+  }
