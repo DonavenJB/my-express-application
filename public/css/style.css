@@ -206,3 +206,23 @@
   .output-container {
     margin-bottom: 2rem;
   }
+  .prompt {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    color: #fff;
+  }
+  .prompt-symbol {
+    color: var(--accent-green);
+    margin-right: 0.5rem;
+  }
+  .command-input {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: var(--font-size-base);
+    width: 100%;
+    outline: none;
+    padding: 0;
+  }
