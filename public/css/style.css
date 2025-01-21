@@ -256,3 +256,14 @@
     align-items: center;
     gap: 0.75rem;
   }
+  .mode-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Hide header toggle in static mode, hide floating toggle in terminal mode */
+  body[data-mode="terminal"] .mode-toggle.floating {
+    display: none;
+  }
+  body[data-mode="static"] .terminal-header .mode-toggle {
+    display: none;
+  }
