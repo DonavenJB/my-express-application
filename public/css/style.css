@@ -267,3 +267,15 @@
   body[data-mode="static"] .terminal-header .mode-toggle {
     display: none;
   }
+  
+  /* A floating version of the toggle for static mode */
+  .mode-toggle.floating {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: rgba(26, 27, 38, 0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
