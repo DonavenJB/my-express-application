@@ -279,3 +279,21 @@
     -webkit-backdrop-filter: blur(10px);
     z-index: 1000;
   }
+  .mode-toggle.floating:hover {
+    background: rgba(26, 27, 38, 1);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /******************************
+   * RESPONSIVE ADJUSTMENTS
+   ******************************/
+  @media (max-width: 768px) {
+    /* Let html/body scroll freely */
+    html, body {
+      height: auto;
+      overflow-y: auto;
+      position: static;
+      margin: 0;
+      padding: 0;
+    }
