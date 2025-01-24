@@ -297,3 +297,15 @@
       margin: 0;
       padding: 0;
     }
+  
+    .terminal {
+      grid-template-columns: 1fr; /* Single column on small screens */
+      height: auto; /* Let content determine height */
+      max-width: 100%;
+    }
+  
+    .terminal-sidebar {
+      padding: 1rem;
+      border-right: none;
+      border-bottom: 1px solid var(--border-color);
+    }
