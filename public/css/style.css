@@ -309,3 +309,19 @@
       border-right: none;
       border-bottom: 1px solid var(--border-color);
     }
+  
+    .terminal-main {
+      margin: 0;
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+      padding: 1rem;
+      min-height: 50vh;
+    }
+  
+    .mode-toggle.floating {
+      bottom: 1.5rem;
+      right: 1.5rem;
+      padding: 0.6rem 1rem;
+      font-size: 0.85em;
+    }
