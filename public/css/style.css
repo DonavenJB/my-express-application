@@ -352,3 +352,24 @@
     .terminal-sidebar {
       padding: 1rem;
     }
+    .terminal-main {
+      padding: 1rem;
+    }
+    .command-input {
+      font-size: 16px;
+    }
+  }
+  
+  /***************************
+   * STATIC (PAGE) CONTENT
+   ***************************/
+  .static-content {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    margin: 3rem 25%;
+    padding: 4rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    display: block;
+    overflow-x: hidden;
+  }
