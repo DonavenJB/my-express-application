@@ -337,3 +337,18 @@
     .terminal-title {
       font-size: var(--font-size-xs);
     }
+  
+    .command-input {
+      font-size: 16px; /* Prevent iOS zoom */
+    }
+  
+    .output {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Even smaller screens */
+  @media (max-width: 380px) {
+    .terminal-sidebar {
+      padding: 1rem;
+    }
