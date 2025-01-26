@@ -325,3 +325,15 @@
       padding: 0.6rem 1rem;
       font-size: 0.85em;
     }
+  
+    /* Terminal header tweaks */
+    .terminal-header {
+      padding: 0.75rem 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+  
+    .terminal-title {
+      font-size: var(--font-size-xs);
+    }
