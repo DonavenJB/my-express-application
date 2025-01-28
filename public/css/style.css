@@ -386,3 +386,14 @@
     color: var(--text-secondary);
     margin-bottom: var(--space-md);
   }
+  .course-tagline {
+    font-size: var(--font-size-lg);
+    color: var(--accent-blue);
+    margin-bottom: var(--space-lg);
+  }
+  .course-text {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+  }
