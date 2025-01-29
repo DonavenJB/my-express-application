@@ -397,3 +397,15 @@
     line-height: 1.6;
     margin-bottom: var(--space-md);
   }
+  .course-text strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+  
+  /* Instructor grid */
+  .instructors-grid,
+  .instructors-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+  }
