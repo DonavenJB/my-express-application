@@ -420,3 +420,19 @@
     border-radius: 50%;
     margin-bottom: var(--space-md);
   }
+  .instructor-name {
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+  .instructor-role {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+  }
+  .instructors-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    color: var(--text-primary);
+  }
