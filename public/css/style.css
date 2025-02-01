@@ -436,3 +436,16 @@
     margin-bottom: var(--space-lg);
     color: var(--text-primary);
   }
+  
+  /* Sections in static content */
+  .static-main section {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+  }
+  .static-main h2 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-md);
+    color: var(--text-primary);
+    font-weight: 600;
+  }
