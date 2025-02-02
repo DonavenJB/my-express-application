@@ -449,3 +449,20 @@
     color: var(--text-primary);
     font-weight: 600;
   }
+  .static-main p {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+  }
+  .static-main ul {
+    list-style: none;
+    margin-bottom: var(--space-md);
+  }
+  .static-main li {
+    position: relative;
+    padding-left: var(--space-xl);
+    margin: var(--space-xs) 0;
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
