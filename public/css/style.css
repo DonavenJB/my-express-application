@@ -466,3 +466,22 @@
     line-height: 1.6;
     color: var(--text-secondary);
   }
+  .static-main li::before {
+    content: "-";
+    position: absolute;
+    left: var(--space-md);
+    color: var(--accent-blue);
+  }
+  li.note {
+    color: var(--accent-blue);
+    font-style: italic;
+  }
+  
+  /* Responsive static content */
+  @media (max-width: 768px) {
+    .static-content {
+      margin: 2rem 1rem;
+      padding: 2rem;
+      border-radius: 0;
+      border: none;
+    }
