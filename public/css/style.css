@@ -485,3 +485,17 @@
       border-radius: 0;
       border: none;
     }
+    .instructors-grid,
+    .instructors-cards {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-md);
+    }
+    .static-content h1 {
+      margin-bottom: var(--space-md);
+    }
+  }
+  @media (max-width: 480px) {
+    .instructors-grid,
+    .instructors-cards {
+      grid-template-columns: 1fr 1fr !important;
+    }
