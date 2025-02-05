@@ -499,3 +499,20 @@
     .instructors-cards {
       grid-template-columns: 1fr 1fr !important;
     }
+    .mode-toggle.floating {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75em;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+  
+  .course-title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 2.5rem 0;
+  }
