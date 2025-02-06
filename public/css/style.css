@@ -516,3 +516,15 @@
     letter-spacing: 0.05em;
     margin: 2.5rem 0;
   }
+  .static-content {
+    margin: 3rem auto;
+    padding: 4rem;
+  }
+  
+  /* Adjusting the instructors layout to prevent overflow */
+  .instructors-cards {
+    /* Ensure the grid doesn't overflow horizontally */
+    overflow: hidden;
+    margin: 0 auto; /* Center it if possible */
+    max-width: 100%;
+  }
