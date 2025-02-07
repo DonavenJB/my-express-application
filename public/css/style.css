@@ -528,3 +528,19 @@
     margin: 0 auto; /* Center it if possible */
     max-width: 100%;
   }
+  
+  .instructor-photo {
+    /* Increase the size of profile pictures */
+    width: 100px;
+    height: 100px;
+    /* Preserve responsive scaling */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: var(--space-md);
+  }
+  
+  .course-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
