@@ -544,3 +544,16 @@
     margin-bottom: 1rem;
     text-align: left;
   }
+  .terminal-sidebar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .instructors-section {
+    margin-top: 1rem;
+  }
+  
+  /* Additional spacing around the instructors section heading and info on the static page */
+  .static-sidebar h2 {
+    margin-top: 2rem;   /* More space above the 'Course Instructors' heading */
+    margin-bottom: 1rem;
+  }
