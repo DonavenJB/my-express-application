@@ -557,3 +557,14 @@
     margin-top: 2rem;   /* More space above the 'Course Instructors' heading */
     margin-bottom: 1rem;
   }
+  .instructors-grid {
+    margin-bottom: 3rem; /* Space between the instructors section and the next section */
+  }
+  
+  /* Fix mobile layout issues by reducing large title sizes and ensuring no overflow on small screens */
+  @media (max-width: 480px) {
+    .course-title {
+      font-size: clamp(1.6rem, 6vw, 2.5rem);
+      word-wrap: break-word;
+      overflow-wrap: anywhere;
+    }
