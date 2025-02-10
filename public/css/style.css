@@ -568,3 +568,14 @@
       word-wrap: break-word;
       overflow-wrap: anywhere;
     }
+    .terminal-sidebar,
+    .static-content {
+      padding: 1rem;
+    }
+    .instructor-photo {
+      width: 80px;
+      height: auto;
+    }
+    .static-main section {
+      margin-bottom: 2rem;
+    }
