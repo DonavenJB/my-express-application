@@ -579,3 +579,18 @@
     .static-main section {
       margin-bottom: 2rem;
     }
+  }
+  
+  /* Make the header toggle button (Static Mode) smaller on mobile */
+  .terminal-header-right #headerToggle {
+    font-size: 0.75rem;   /* Reduce font size */
+    padding: 0.2rem 0.5rem; /* Reduce padding */
+    min-width: auto;     /* Remove any minimum width that might cause obtrusiveness */
+  }
+  
+  /* Scale terminal on larger screens to fill the entire viewport */
+  @media (min-width: 1200px) {
+    .terminal-wrapper {
+      height: 100vh;        /* Fill the entire viewport height */
+      max-height: 100%;     /* Remove previous constraints */
+    }
