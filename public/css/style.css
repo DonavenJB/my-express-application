@@ -594,3 +594,14 @@
       height: 100vh;        /* Fill the entire viewport height */
       max-height: 100%;     /* Remove previous constraints */
     }
+    .terminal {
+      height: 100%;         /* Inherit full height */
+    }
+  }
+  
+  /* If you also want static content to fill the screen, do similarly there: */
+  @media (min-width: 1200px) {
+    .static-content {
+      min-height: 100vh; /* Fill the screen on larger desktops */
+    }
+  }
