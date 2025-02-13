@@ -605,3 +605,14 @@
       min-height: 100vh; /* Fill the screen on larger desktops */
     }
   }
+  
+  /* PROFESSIONAL REFINEMENTS FOR STATIC MODE */
+  
+  /* 1. Constrain .static-content on large screens, center it, and add a subtle shadow */
+  @media (min-width: 992px) {
+    .static-content {
+      max-width: 1000px;      /* Narrower container for professional look */
+      margin: 4rem auto;      /* Center the container and space from top/bottom */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+  }
