@@ -616,3 +616,18 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
   }
+  
+  /* 2. Adjust static-sidebar spacing & headings for clarity */
+  .static-sidebar {
+    margin-bottom: 2rem;
+  }
+  .static-sidebar h1 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  /* 3. Ensure .static-main sections have uniform spacing, bigger headings, and consistent line-height */
+  .static-main section {
+    margin-bottom: 3rem;   /* Extra space between sections */
+    line-height: 1.6;
+  }
