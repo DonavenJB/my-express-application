@@ -631,3 +631,22 @@
     margin-bottom: 3rem;   /* Extra space between sections */
     line-height: 1.6;
   }
+  .static-main h2 {
+    font-size: 1.6rem;     /* Slightly larger than default for a clearer hierarchy */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* 4. Use a smaller border-radius and a consistent border color for .static-content */
+  .static-content {
+    border-radius: 8px;    /* Slightly smaller radius */
+    border-color: rgba(255,255,255,0.2); /* Subtle border for better integration */
+  }
+  
+  /* On mobile, remove fixed 100vh and allow normal scrolling so the input is more accessible */
+  @media (max-width: 768px) {
+    .terminal-container {
+      height: auto;
+      min-height: 100vh;
+      align-items: flex-start;
+      overflow: visible;
+    }
