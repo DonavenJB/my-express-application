@@ -650,3 +650,14 @@
       align-items: flex-start;
       overflow: visible;
     }
+  }
+  
+  /* Unify terminal and static backgrounds with the same theme color */
+  .terminal, .terminal-container, .terminal-main, .terminal-content {
+    background: var(--bg-primary) !important;
+  }
+  
+  /* Step 2: Remove "black" from .terminal-sidebar so we can override it below */
+  .terminal-sidebar {
+    background: var(--bg-primary) !important;
+  }
