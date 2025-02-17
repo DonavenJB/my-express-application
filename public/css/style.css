@@ -661,3 +661,12 @@
   .terminal-sidebar {
     background: var(--bg-primary) !important;
   }
+  
+  /* Add a visible outline to confirm focus is moving to these areas */
+  .terminal-sidebar:focus,
+  .terminal-main:focus,
+  .static-main:focus {
+    outline: 2px dashed #00ff00;
+    outline-offset: 4px;
+  }
+  
